@@ -95,7 +95,10 @@ a {
 
     .front {
         width: 100%;
+    }
 
+    .front:hover {
+        transform: rotate(15deg);
     }
 
 }
@@ -132,7 +135,10 @@ a {
 
     .front {
         width: 100%;
+    }
 
+    .front:hover {
+        transform: rotate(15deg);
     }
 
     .menu {
