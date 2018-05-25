@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+
+.text {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: 'Special Elite', cursive;
+    text-decoration-color: black;
+    font-size: 4vh;
+    text-align: center;
+    padding: 0 25px;
+    margin-left: 80px;
+}
+
+blockquote {
+    font-weight: 100;
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+    position: absolute;
+    color: #f1efe6;
+    font-size: 8rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+blockquote:before {
+    content: '“';
+    left: -5rem;
+    top: -2rem;
+}
+
+blockquote:after {
+    content: '”';
+    right: -5rem;
+    bottom: 1rem;
+}
+
+figure {
+    width: 96%;
+    max-width: 400px;
+    display: inline-table;
+    position: relative;
+    left: 0;
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+
+}
+
+img {
+    border-color: white /* for an acceptable IE result*/;
+    border-width: 15px;
+    -moz-border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;
+    border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;
+    border-style: solid;
+    margin: auto;
+}
+
+.img-p {
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 20%)
+}
+
