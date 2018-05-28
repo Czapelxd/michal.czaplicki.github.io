@@ -9,7 +9,7 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.text {
+.text0 {
     padding-top: 6vh;
     grid-column: 2;
     grid-row: 1;
@@ -108,3 +108,13 @@ img {
     text-shadow: 0 0 20px #FFFFFF;
 }
 
+#exp0 {
+        display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    overflow: auto;
+}
+
+.expIN {
+    height: 100vh;
+}
