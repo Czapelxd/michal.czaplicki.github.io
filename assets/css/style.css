@@ -360,6 +360,18 @@ a:hover {
         opacity: 1;
     }
 
+    .parallax_image_first{
+        background-image: url("../../assets/img/boat-island-ocean-218999-mobile.jpg");
+    }
+
+    .parallax_image_second{
+        background-image: url("../../assets/img/blur-close-up-figure-346696-mobile.jpg");
+    }
+
+    .parallax_image_third{
+        background-image: url("../../assets/img/alcohol-ale-bar-159291-mobile.jpg");
+    }
+
     .parallax_main-title {
         text-align: center;
         padding-left: 0px;
@@ -390,6 +402,7 @@ a:hover {
         grid-column: 1;
 
     }
+
     .social > a {
         position: relative;
         display: inline-block;
@@ -398,6 +411,7 @@ a:hover {
         height:  200px;
         cursor: pointer;
     }
+
     .social > a:hover .front {
         transform: translateY(-45px);
     }
