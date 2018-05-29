@@ -141,7 +141,9 @@ img {
     margin-bottom: auto;
 
 }
-
+ #education{
+     position: relative;
+ }
 
 #blur1{
     padding-top: 100px;
