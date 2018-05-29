@@ -63,6 +63,7 @@ a {
 }
 
 .content {
+    z-index: 99;
     grid-column: 2 / 4;
     grid-row: 1;
 }
