@@ -24,7 +24,7 @@ html, body{
 }
 
 .parallax_image_second{
-    background-image: url("../../assets/img/blueprint-company-concept-7366.jpg");
+    background-image: url("../../assets/img/blur-close-up-figure-346696.jpg");
 }
 
 .parallax_image_third{
@@ -43,7 +43,6 @@ a {
     grid-auto-rows: minmax(100px, auto);
 }
 
-
 .social > a {
     position: relative;
     display: inline-block;
@@ -53,15 +52,6 @@ a {
 .content-page {
     height: 100vh;
 }
-
-
-
-
-
-/*  NEW NEW NEW */
-
-
-
 
 .left-bar {
     background-color: black;
@@ -203,18 +193,35 @@ img {
     position:relative;
 }
 
-
-
-article {
-    font-size: 60px;
+.parallax_main-title {
+    font-size: 5vh;
     position: absolute;
-    top: 50%;
+    top: 30%;
     margin-top: -15px;
-    left: 0;
-    right: 0;
     text-align: center;
     font-weight: 600;
     color: #fff;
+    padding-left: 30px;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    font-family: 'Righteous', cursive;
+}
+
+a:hover {
+    text-decoration: none ;
+}
+
+.parallax_text {
+    font-size: 3vh;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 30px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 
@@ -264,10 +271,27 @@ article {
         width: 100%;
     }
 
+    #frontPhone {
+        padding-top: 5px;
+    }
+
     .front:hover {
         transform: rotate(15deg);
     }
 
+    .parallax_main-title {
+        text-align: center;
+        padding-left: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .parallax_text {
+        padding-left: 0px;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
 
 
 
@@ -315,11 +339,29 @@ article {
         width: 100%;
     }
 
+    #frontPhone {
+        padding-top: 5px;
+    }
+
     .front:hover {
         transform: rotate(15deg);
     }
 
     .menu {
+        left: 0;
+        right: 0;
+    }
+
+    .parallax_main-title {
+        text-align: center;
+        padding-left: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .parallax_text {
+        padding-left: 0px;
+        text-align: center;
         left: 0;
         right: 0;
     }
