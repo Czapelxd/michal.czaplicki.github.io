@@ -8,14 +8,15 @@
 html, body{
     height: 100%;
 }
-body {
+
+
+.background-pic {
     background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url("../../assets/img/photo-1446824505046-e43605ffb17f.jpg");
     background-position: center center;
     background-repeat:  no-repeat;
     /*background-attachment: fixed;*/
     background-size:  cover;
     background-color: #999;
-
 }
 
 .parallax_image_first{
@@ -229,8 +230,7 @@ article {
     }
 
     .content-page {
-        overflow: scroll;
-        padding-bottom: 120px;
+        overflow: auto;
     }
 
 
@@ -282,8 +282,7 @@ article {
     }
 
     .content-page {
-        overflow: scroll;
-        padding-bottom: 120px;
+        overflow: auto;
     }
 
     .left-bar {
