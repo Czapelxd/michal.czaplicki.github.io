@@ -63,7 +63,7 @@ a {
 }
 
 .content {
-    z-index: 99;
+    z-index: 9;
     grid-column: 2 / 4;
     grid-row: 1;
 }
@@ -353,6 +353,11 @@ a:hover {
     .menu {
         left: 0;
         right: 0;
+        opacity: 0.6;
+    }
+
+    .menu:hover {
+        opacity: 1;
     }
 
     .parallax_main-title {
