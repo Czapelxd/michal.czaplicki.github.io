@@ -276,8 +276,11 @@ a:hover {
     z-index: 1;
 }
 .skill-box > .skills-circle > ul > li > span.text ~ b, .skill-box > .skills-circle > ul > li > span ~ b ~ b {
-    font-weight: normal;
+    font-weight: bolder;
     margin-top: 8px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    color: #7a7;;
 }
 .skill-box > .skills-circle > ul > li > span.bar-circle-right, .skill-box > .skills-circle > ul > li > span.bar-circle-left {
     border-radius: 50%;
@@ -304,14 +307,23 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-.textSkill {
-    font-size: x-large;
+.skillsText {
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+#skillsT1 {
+    font-size: 45px;
+}
+
+#skillsT2 {
+    font-size: 20px;
 }
 
 
 @media (max-width: 654px) {
-    .skill-box {
-        padding-top: 200px;
+    .skills-circle {
+        padding-top: 500px;
     }
 }
 
@@ -446,7 +458,7 @@ a:hover {
         opacity: 0.6;
     }
 
-    .menu:hover {
+    .menu:active {
         opacity: 1;
     }
 
