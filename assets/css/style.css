@@ -34,6 +34,7 @@ html, body{
 
 a {
     color: inherit;
+
 }
 
 .grid-container {
@@ -278,7 +279,7 @@ a:hover {
 .skill-box > .skills-circle > ul > li > span.text ~ b, .skill-box > .skills-circle > ul > li > span ~ b ~ b {
     font-weight: bolder;
     margin-top: 8px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Press Start 2P', cursive;
     color: #7a7;;
 }
@@ -296,8 +297,8 @@ a:hover {
 }
 .skill-box > .skills-circle > ul > li > span.bar-circle-cover {
     display: block;
-    width: 95%;
-    height: 95%;
+    width: 85%;
+    height: 85%;
     border-radius: 50%;
     background-color: #eee;
     z-index: 0;
@@ -545,6 +546,8 @@ a:hover {
         color: #fff;
         text-align: center;
         grid-column: 1;
+        font-family: 'Gaegu', cursive;
+        font-family: 'Annie Use Your Telescope', cursive
     }
 
     #\#maila {
